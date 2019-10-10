@@ -18,6 +18,7 @@ Specify tests across multiple urls by adding test objects to the list `tests`.  
 	actions {
 		#selector: <value>, //fills in selector with value
 		#selector: "click" //clicks selector
+	}
 }
 ```
 ## Slack
