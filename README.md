@@ -10,7 +10,7 @@ In `marketo-config.json` fill in values for `domain`, `client_id`, and `client_s
 ## main.js
 Specify tests across multiple urls by adding test objects to the list `tests`.  Test Objects are of the format:
 
-``{
+```{
 	  name: <form name> //name of form (used for error reporting)
 		url: <your url> //url of form page
 		success_url: <your success_url> //test will succeed if form goes to this url on submission
@@ -18,7 +18,7 @@ Specify tests across multiple urls by adding test objects to the list `tests`.  
 			#selector: <value>, //fills in selector with value
 			#selector: "click" //clicks selector
     }
-	}``
+	}```
 
 ## Slack
 To enable slack error reporting fill in values for `token`, and `conversationId` in `./scripts/slack-post.js`
