@@ -1,0 +1,8 @@
+
+{
+    "dateTime": "ignore this",
+    "domain": "<your marketo domain here>",
+    "client_id": "<your client_id here?>",
+    "client_secret": "<your client_secret here>",
+    "email": ""
+}

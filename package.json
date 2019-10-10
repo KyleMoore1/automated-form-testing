@@ -1,0 +1,31 @@
+{
+  "name": "automated-form-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "mocha main.js --timeout 15000"
+  },
+  "author": "Kyle Moore",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/events-api": "^2.2.0",
+    "@slack/web-api": "^5.0.1",
+    "chai": "^4.2.0",
+    "colors": "^1.3.3",
+    "mocha": "^6.1.4",
+    "node-fetch": "^2.6.0",
+    "puppeteer": "^1.18.0"
+  },
+  "devDependencies": {
+    "xmlhttprequest": "^1.8.0"
+  },
+  "jspm": {
+    "dependencies": {},
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  }
+}
